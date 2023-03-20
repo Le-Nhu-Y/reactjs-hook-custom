@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import MyClock from './components/MyClock.js';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         >
           Learn React
         </a>
+        <MyClock/>
       </header>
     </div>
   );
